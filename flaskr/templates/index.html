@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400italic,600italic,700italic,200,300,400,600,700,900">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://d3js.org/queue.v1.min.js"></script>
+  <script src="https://d3js.org/topojson.v1.min.js"></script>
+  <script type="text/javascript" src="http://livejs.com/live.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <div id="outer-content">
+    <div id="inner-content">
+      <!--<h1>Capital Punishment in the United States 1976-2019</h1>-->
+      <h2 class="year"></h2>
+      <div class="slider"></div>
+      <div id="map"></div>
+      <!--<p>Lethal Injection: </p>
+      <p>Electric chair: </p>
+      <p>Gas: </p>
+      <p>Firing squad: </p>
+      <p>Hanging: </p>-->
+      <!--<p>Source: DeathPenaltyInfo.</p>-->
+    </div>
+  </div>
+
+  <script type="text/javascript" src="{{ url_for('static', filename='scripts/map.js') }}"></script>
+
+</body>
+
+</html>
