@@ -1,0 +1,40 @@
+state,total,white,black
+Federal,19,5,13
+Connecticut,5,2,3
+New Hampshire,0,0,0
+New Jersey,14,8,6
+New York,1,0,1
+Pennsylvania,227,76,140
+Illinois,158,59,99
+Indiana,45,30,15
+Kansas,2,2,0
+Missouri,89,47,42
+Nebraska,11,9,1
+Ohio,191,93,97
+South Dakota,2,2,0
+Alabama,178,95,82
+Arkansas,40,20,20
+Delaware,17,7,10
+Florida,375,242,132
+Georgia,109,57,52
+Kentucky,37,29,8
+Louisiana,77,24,53
+Maryland,17,5,12
+Mississippi,63,28,35
+North Carolina,187,79,102
+Oklahoma,144,88,48
+South Carolina,68,33,35
+Tennessee,99,63,34
+Texas,452,258,190
+Virginia,39,22,17
+Arizona,121,105,11
+California,512,310,188
+Colorado,3,1,2
+Idaho,20,20,0
+Montana,6,5,0
+Nevada,84,48,35
+New Mexico,4,4,0
+Oregon,23,22,0
+Utah,10,7,2
+Washington,14,10,4
+Wyoming,2,2,0

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<head>
+  <title>Inspiration</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.7.8/dist/semantic.min.js"></script>
+</head>
+
+<body>
+  <div class="ui three column doubling stackable grid container">
+    <div class="column">
+      <h3 class="ui header">Colour</h3>
+
+        <h5 class="ui header">Inspiration Site</h5> 
+        <p>
+                <strong>https://www.awwwards.com/sites/panera-land-of-clean</strong> (real site at http://paneralandofclean.com/, although the server is unresponsive)
+        </p>
+      <p>
+
+
+        Obviously, this example is way too out of reach for the application I was building and I needed to scale it down. 
+        I like how earthy and natural the feel is on it. The fruits in the picture are really realistic (look at that apple!) 
+        with the amount of detail exploding on each one. The lighter shadows around the mountain give an exceptionally
+        fresh feel to the overall landscape.
+
+        I have incorporated this by placing a legend in the top/bottom left
+        corners of the screen (depending on which aspect you are viewing by),
+        and the individual states change colour according to the scale of that
+        legend. For example, a state with a high number of executions in a
+        particular year will evidently show up with a darker red for that
+        particular year, while states with few/no executions have a softer more
+        light orange-y tone. By tweaking the colour value, I am able to add
+        contrast to the eye of the viewer as they traverse through the years. I
+        am giving the map a degree of lightness or darkness by setting the value
+        (tone). This also sets the mood for the user, i.e. if they liked the
+        number of executions or sentences in a year for any state (say Florida),
+        then it stands out.
+      </p>
+
+      <img class="ui medium image" src="{{ url_for('static', filename = 'images/inspiration/colour.png') }}" alt="Map colour">
+
+    </div>
+    <div class="column">
+      <h3 class="ui header">Line</h5>
+
+        
+        <h5 class="ui header">Inspiration Site</h5> 
+        <p>
+        <strong>https://witnessco.com/home</strong>
+        </p>
+
+        <p>
+                I like how each shape (separated by line) on the site (both rectangles and circles) are encapsulating a certain portion of the page.
+                Each shape represents its importance on the page by its size. The animation when switching to another page is nice as well.
+        
+        </p>
+      <p>
+
+     
+        On the map are individual lines that are present around the individual
+        states. This provides a focal area of visual interest and allows me to
+        distinguish exactly what I am trying to demonstrate on an individual
+        state level. It works by providing a area of detail for the eye to
+        navigate to to see what the value is for that particular state on a
+        given year. This provides a sense of order and organization on the map
+        and almost, in a way, creates natural boundaries. Organic shapes (i.e.
+        non geometric shapes) are also naturally created as a result of this
+        too.
+      </p>
+
+      
+      <img class="ui medium image" src="{{ url_for('static', filename = 'images/inspiration/line.png') }}" alt="Map line">
+
+    </div>
+    <div class="column">
+      <h3 class="ui header">Gradation</h5>
+
+        
+        <h5 class="ui header">Inspiration Site</h5> 
+        <p>
+                <strong>https://designmodo.com/wp-content/uploads/2017/08/02-meagan-fischer-portfolio.jpg</strong> (original site at https://owltastic.com/, but the design has changed)
+        </p>
+        
+
+        <p>
+            This site brings a nice representation of gradients by the use of multi-color gradients that span across the elements on the page. 
+            The contrast in the different colours adds interest but without being overbearing on the user. Notice how the publisher has stuck with
+            three main colour choices; grey, pink-ish and green-ish, each using slightly lighter and darker tones.
+        </p>
+      <p>
+        This relates similarly to the previous colour design element I
+        mentioned, but I feel as though this is different. On the map is a
+        slider which can be used to progress through 'stages' or 'steps' by
+        traversing through years, essentially creating a gradual change in the
+        map. This helps to create a visual effect of interest between 'cool' and
+        'hot', i.e. if a particular state has a low number of sentences during
+        1986-1988, and then suddenly spikes up in 1989 and drops off after that,
+        this can be evidently seen with the colour scaler acting behind the
+        scenes. In a way, this creates a sentence of movement for the user,
+        helping to provide another platform of interest and engagement.
+      </p>
+
+      <video width="350" height="300" controls="controls">
+            <source src="{{ url_for('static', filename = 'images/inspiration/gradation.mp4') }}" type="video/mp4">
+            </video>
+      
+    </div>
+
+  </div>
+</body>

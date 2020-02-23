@@ -1,0 +1,36 @@
+.horizontalBarChartDefault {
+  fill: #6f257f;
+}
+
+.horizontalSentencingBarSentences {
+  fill: #0059b3;
+}
+
+.horizontalSentencingBarExecutions {
+  fill: #dc143c;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #d4d8da;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.x path {
+  display: none;
+}
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6f257f;
+  padding: 14px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=bar-charts.css.map */

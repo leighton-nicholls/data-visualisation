@@ -1,0 +1,52 @@
+state,total,white,black,other
+Federal,1,1,0,0
+Maine,0,0,0,0
+New Hampshire,0,0,0,0
+Vermont,0,0,0,0
+Massachusetts,0,0,0,0
+Rhode Island,2,0,2,0
+Connecticut,0,0,0,0
+New York,2,0,2,0
+New Jersey,0,0,0,0
+Pennsylvania,6,3,3,0
+Ohio,67,26,41,0
+Indiana,7,5,2,0
+Illinois,0,0,0,0
+Michigan,0,0,0,0
+Wisconsin,0,0,0,0
+Minnesota,0,0,0,0
+Iowa,0,0,0,0
+Missouri,0,0,0,0
+North Dakota,0,0,0,0
+South Dakota,0,0,0,0
+Nebraska,5,4,1,0
+Kansas,0,0,0,0
+Delaware,0,0,0,0
+Maryland,0,0,0,0
+Virginia,0,0,0,0
+West Virginia,0,0,0,0
+North Carolina,0,0,0,0
+South Carolina,0,0,0,0
+Georgia,34,16,18,0
+Florida,81,49,32,0
+Kentucky,3,3,0,0
+Tennessee,34,19,15,0
+Alabama,4,2,2,0
+Mississippi,1,0,1,0
+Arkansas,6,4,2,0
+Louisiana,30,3,27,0
+Oklahoma,0,0,0,0
+Texas,53,34,19,0
+Montana,5,4,1,0
+Idaho,2,2,0,0
+Wyoming,5,3,2,0
+Colorado,3,1,2,0
+New Mexico,0,0,0,0
+Arizona,16,14,2,0
+Utah,6,4,2,0
+Nevada,3,3,0,0
+Washington,0,0,0,0
+Oregon,0,0,0,0
+California,68,43,25,0
+Alaska,0,0,0,0
+Hawaii,0,0,0,0

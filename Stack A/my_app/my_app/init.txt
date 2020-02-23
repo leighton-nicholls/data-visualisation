@@ -1,0 +1,15 @@
+
+'''for root, directories, filenames in os.walk('my_app/views'):
+    for directory in directories:
+        print("Directory: ", directory)
+        for files in os.walk(f'my_app/views/{directory}'):
+            print("Files: ", files)
+            for filename in files:
+                print("Filename: ", filename)'''
+          
+        '''for filename in filenames: 
+
+            print(filename)
+            formattedFilename = os.path.splitext(filename)[0] 
+            print(formattedFilename)
+            #import f"my_app.views.{directory}.{formattedFilename}"'''
